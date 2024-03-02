@@ -1,0 +1,63 @@
+.todo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todo h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  gap: 20px;
+  font-size: 25px;
+}
+
+form input {
+  flex-basis: 80%;
+  height: 40px;
+  padding: 0 10px;
+}
+
+form button {
+  flex-basis: 20%;
+  height: 40px;
+  padding: 10px;
+
+}
+
+.outerdiv {
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.outerdiv ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.outerdiv ul li {
+  background-color: rgb(84, 69, 69);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.outerdiv ul li span {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.completetodo {
+  text-decoration: line-through;
+  color: brown;
+}
